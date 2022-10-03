@@ -1,0 +1,4 @@
+# Bring your own variables
+botToken = "" #Telegram bot token
+chatID = "" #Chat id to who you want to send a message
+path = "" #path to what you want to check
