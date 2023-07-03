@@ -11,8 +11,8 @@ message1 = "Hard Drive is up"
 check = None
 sent = None
 
+sleep(60)
 while True:
-    sleep(2)
     if not path.exists(find):
         check = 0
         if not sent == 0:
