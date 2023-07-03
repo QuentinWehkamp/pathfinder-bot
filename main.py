@@ -11,7 +11,7 @@ message1 = "Hard Drive is up"
 check = None
 sent = None
 
-sleep(60)
+sleep(60) # this sleep is probably a little too long but at least it doesnt fail as a service on reboot anymore
 while True:
     if not path.exists(find):
         check = 0
